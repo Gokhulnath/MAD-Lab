@@ -1,0 +1,132 @@
+package ssn.gokhul.keyboardsim;
+
+import java.util.ArrayList;
+
+public class Constants {
+    public static final ArrayList<String> smallAlphaRow1 = new ArrayList<>();
+    public static final ArrayList<String> smallAlphaRow2 = new ArrayList<>();
+    public static final ArrayList<String> smallAlphaRow3 = new ArrayList<>();
+    static {
+        smallAlphaRow1.add("q");
+        smallAlphaRow1.add("w");
+        smallAlphaRow1.add("e");
+        smallAlphaRow1.add("r");
+        smallAlphaRow1.add("t");
+        smallAlphaRow1.add("y");
+        smallAlphaRow1.add("u");
+        smallAlphaRow1.add("i");
+        smallAlphaRow1.add("o");
+        smallAlphaRow1.add("p");
+        smallAlphaRow2.add("a");
+        smallAlphaRow2.add("s");
+        smallAlphaRow2.add("d");
+        smallAlphaRow2.add("f");
+        smallAlphaRow2.add("g");
+        smallAlphaRow2.add("h");
+        smallAlphaRow2.add("j");
+        smallAlphaRow2.add("k");
+        smallAlphaRow2.add("l");
+        smallAlphaRow3.add("z");
+        smallAlphaRow3.add("x");
+        smallAlphaRow3.add("c");
+        smallAlphaRow3.add("v");
+        smallAlphaRow3.add("b");
+        smallAlphaRow3.add("n");
+        smallAlphaRow3.add("m");
+    }
+    public static final ArrayList<String> capsAlphaRow1 = new ArrayList<>();
+    public static final ArrayList<String> capsAlphaRow2 = new ArrayList<>();
+    public static final ArrayList<String> capsAlphaRow3 = new ArrayList<>();
+    static {
+        capsAlphaRow1.add("Q");
+        capsAlphaRow1.add("W");
+        capsAlphaRow1.add("E");
+        capsAlphaRow1.add("R");
+        capsAlphaRow1.add("T");
+        capsAlphaRow1.add("Y");
+        capsAlphaRow1.add("U");
+        capsAlphaRow1.add("I");
+        capsAlphaRow1.add("O");
+        capsAlphaRow1.add("P");
+        capsAlphaRow2.add("A");
+        capsAlphaRow2.add("S");
+        capsAlphaRow2.add("D");
+        capsAlphaRow2.add("F");
+        capsAlphaRow2.add("G");
+        capsAlphaRow2.add("H");
+        capsAlphaRow2.add("J");
+        capsAlphaRow2.add("K");
+        capsAlphaRow2.add("L");
+        capsAlphaRow3.add("Z");
+        capsAlphaRow3.add("X");
+        capsAlphaRow3.add("C");
+        capsAlphaRow3.add("V");
+        capsAlphaRow3.add("B");
+        capsAlphaRow3.add("N");
+        capsAlphaRow3.add("M");
+    }
+    public static final ArrayList<String> num1Row1 = new ArrayList<>();
+    public static final ArrayList<String> num1Row2 = new ArrayList<>();
+    public static final ArrayList<String> num1Row3 = new ArrayList<>();
+    static {
+        num1Row1.add("1");
+        num1Row1.add("2");
+        num1Row1.add("3");
+        num1Row1.add("4");
+        num1Row1.add("5");
+        num1Row1.add("6");
+        num1Row1.add("7");
+        num1Row1.add("8");
+        num1Row1.add("9");
+        num1Row1.add("0");
+        num1Row2.add("@");
+        num1Row2.add("#");
+        num1Row2.add("₹");
+        num1Row2.add("_");
+        num1Row2.add("&");
+        num1Row2.add("-");
+        num1Row2.add("+");
+        num1Row2.add("(");
+        num1Row2.add(")");
+        num1Row2.add("/");
+        num1Row3.add("*");
+        num1Row3.add("\"");
+        num1Row3.add("\'");
+        num1Row3.add(":");
+        num1Row3.add(";");
+        num1Row3.add("!");
+        num1Row3.add("?");
+    }
+    public static final ArrayList<String> num2Row1 = new ArrayList<>();
+    public static final ArrayList<String> num2Row2 = new ArrayList<>();
+    public static final ArrayList<String> num2Row3 = new ArrayList<>();
+    static {
+        num2Row1.add("~");
+        num2Row1.add("`");
+        num2Row1.add("|");
+        num2Row1.add("·");
+        num2Row1.add("√");
+        num2Row1.add("π");
+        num2Row1.add("÷");
+        num2Row1.add("X");
+        num2Row1.add("¶");
+        num2Row1.add("∆");
+        num2Row2.add("€");
+        num2Row2.add("¥");
+        num2Row2.add("$");
+        num2Row2.add("¢");
+        num2Row2.add("^");
+        num2Row2.add("°");
+        num2Row2.add("=");
+        num2Row2.add("{");
+        num2Row2.add("}");
+        num2Row2.add("\\");
+        num2Row3.add("%");
+        num2Row3.add("©");
+        num2Row3.add("®");
+        num2Row3.add("™");
+        num2Row3.add("✓");
+        num2Row3.add("[");
+        num2Row3.add("]");
+    }
+}

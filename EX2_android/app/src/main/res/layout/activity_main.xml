@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/inputTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Here"
+        android:padding="30px"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#d3d3d3"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/row1RV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/row2RV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/capsMBT"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="3dp"
+                android:backgroundTint="#e7e7e7"
+                android:padding="0px"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:visibility="visible"
+                app:icon="@drawable/ic_up_arrow"
+                app:iconGravity="textStart"
+                app:iconPadding="-2dp" />
+
+            <Button
+                android:id="@+id/numBT"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="3dp"
+                android:backgroundTint="#e7e7e7"
+                android:padding="0px"
+                android:text="=\+"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/row3RV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteMBT"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="3dp"
+                android:backgroundTint="#e7e7e7"
+                android:padding="0px"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:icon="@drawable/ic_delete"
+                app:iconGravity="textStart"
+                app:iconPadding="-2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/numAlphaBT"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="3dp"
+                android:backgroundTint="#e7e7e7"
+                android:padding="0px"
+                android:text="123"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/commaBT"
+                    android:layout_width="35dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="3dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="0px"
+                    android:text=","
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="3dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="0px"
+                    android:text=":)"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/spaceBT"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="3dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="0px"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/dotBT"
+                    android:layout_width="35dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="3dp"
+                    android:backgroundTint="@color/white"
+                    android:padding="0px"
+                    android:text="."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/enterMBT"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="3dp"
+                android:backgroundTint="@color/blue"
+                android:padding="0px"
+                android:textSize="20dp"
+                app:icon="@drawable/ic_enter"
+                app:iconGravity="textStart"
+                app:iconPadding="-2dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
