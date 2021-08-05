@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shapeBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shape" />
+
+    <Button
+        android:id="@+id/gifBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIF Animation" />
+
+    <Button
+        android:id="@+id/animateBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotate Zoom" />
+
+    <Button
+        android:id="@+id/carBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Animation" />
+</LinearLayout>
