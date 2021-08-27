@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136332759783",
+    "project_id": "mad-product",
+    "storage_bucket": "mad-product.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136332759783:android:fab73c8b9898d803024842",
+        "android_client_info": {
+          "package_name": "ssn.gokhul.product"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136332759783-mundc77sn829n33ma39kangli599po2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn_qCoZsbmBNQPPU1ITdngWoIq1A23pCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136332759783-mundc77sn829n33ma39kangli599po2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

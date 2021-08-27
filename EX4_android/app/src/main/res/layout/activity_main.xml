@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <Button
+            android:id="@+id/insertBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Insert"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"/>
+
+        <Button
+            android:id="@+id/updateBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Update"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"/>
+
+        <Button
+            android:id="@+id/deleteBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Delete"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"/>
+
+        <Button
+            android:id="@+id/retrieveIDBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Retrieve by ID"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"/>
+
+        <Button
+            android:id="@+id/retrieveAllBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:text="Retrieve All"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingVertical="15dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
